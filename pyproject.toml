@@ -1,0 +1,20 @@
+[project]
+name = "myapp"  # اسم التطبيق
+version = "0.1.0"  # إصدار التطبيق
+description = "My Flet App"  # وصف التطبيق
+requires-python = ">=3.9"  # إصدار بايثون المطلوب
+authors = [
+    { name = "Your Name", email = "[email protected]" }  # معلومات المطور
+]
+dependencies = [
+    "flet"  # التبعيات المطلوبة (مثل Flet)
+]
+
+[tool.flet]
+org = "com.mycompany"  # اسم المؤسسة
+product = "MyApp"  # اسم المنتج
+company = "My Company"  # اسم الشركة
+copyright = "Copyright (C) 2025 by My Company"  # حقوق النشر
+
+[tool.flet.app]
+path = "src"  # المسار إلى ملفات التطبيق
